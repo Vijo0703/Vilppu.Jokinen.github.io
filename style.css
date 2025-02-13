@@ -377,6 +377,7 @@ article.icon {
 
 #projects {
     position: relative;
+    height: 98vh;
 }
 
 .color-container {
@@ -398,6 +399,12 @@ article.icon {
 .project-btn {
     color: black;
     border-color: rgb(163, 163, 163);
+}
+
+/* CREATIVE PROJECT*/
+
+#creative-projects {
+    position: relative;
 }
 
 /* CONTACT SECTION*/
