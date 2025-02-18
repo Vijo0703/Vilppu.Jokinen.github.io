@@ -14,8 +14,9 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#creative-projects">Creative Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -30,8 +31,9 @@
             </div>
             <div class="menu-links">
                 <li><a href="#about" onclick="togglemenu()">About</a></li>
-                <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#skills" onclick="togglemenu()">Skills</a></li>
                 <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#creative-projects" onclick="togglemenu()">Creative Projects</a></li>
                 <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
             </div>
         </div>
@@ -41,6 +43,7 @@
             <img 
             src="./assets/profile-pic.png" 
             alt="Vilppu Jokinen profile picture"
+            class="section-pic"
             >
         </div>
         <div class="section__text">
@@ -115,85 +118,80 @@
         onclick="location.href='./experience'
         ">
     </section>
-    <section id="experience">
+    <section id="skills">
         <p class="section__text__p1">Explore my</p>
-        <h1 class="title">Experience</h1>
+        <h1 class="title">Skills</h1>
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container">
                     <h2 class="experience-sub-title">Mechanical Design</h2>
                     <div class="article-container">
-                        <article>
                             <img 
-                            src="./assets/checkmark.png" 
-                            alt="Experience icon"
-                            class="icon"
+                            src="./assets/creo-logo.png" 
+                            alt="Creo icon"
+                            class="icon_skills"
                             >
-                            <div>
-                                <h3>Creo Parametrics</h3>
-                                <p>Experienced</p>
+                            <div class="skills-bar-container">
+                              <div class="skills creo">80%</div>
                             </div>
-                        </article>
-                        <article>
+                        
                             <img 
-                            src="./assets/checkmark.png" 
-                            alt="Experience icon"
-                            class="icon"
+                            src="./assets/fusion-logo.png" 
+                            alt="Fusion icon"
+                            class="icon_skills"
                             >
-                            <div>
-                                <h3>Fusion 360</h3>
-                                <p>Basics</p>
+                            <div class="skills-bar-container">
+                              <div class="skills fusion">50%</div>
                             </div>
-                        </article>
-                        <article>
+                       
                             <img 
-                            src="./assets/checkmark.png" 
-                            alt="Experience icon"
-                            class="icon"
+                            src="./assets/ansys-logo.png" 
+                            alt="Ansys icon"
+                            class="icon_skills"
                             >
-                            <div>
-                                <h3>Ansys Mechanical</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
+                            <div class="skills-bar-container">
+                              <div class="skills ansys">30%</div>
+                            </div> 
                     </div>
                 </div>
                 <div class="details-container">
                     <h2 class="experience-sub-title">Simulation and Programming</h2>
                     <div class="article-container">
-                        <article>
-                            <img 
-                            src="./assets/checkmark.png" 
-                            alt="Experience icon"
-                            class="icon"
-                            >
-                            <div>
-                                <h3>Matlab/Simulink</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img 
-                            src="./assets/checkmark.png" 
-                            alt="Experience icon"
-                            class="icon"
-                            >
-                            <div>
-                                <h3>C/C#</h3>
-                                <p>Basics</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img 
-                            src="./assets/checkmark.png" 
-                            alt="Experience icon"
-                            class="icon"
-                            >
-                            <div>
-                                <h3>Python</h3>
-                                <p>Basics</p>
-                            </div>
-                        </article>
+                        
+                        <img 
+                            src="./assets/matlab-logo.png" 
+                            alt="Matlab icon"
+                            class="icon_skills"
+                        >
+                        <img 
+                            src="./assets/Simulink_Logo.png" 
+                            alt="Simulink icon"
+                            class="icon_skills"
+                        >
+                         <div class="skills-bar-container">
+                            <div class="skills matlab">50%</div>
+                        </div>
+                        <img 
+                            src="./assets/c-sharp-logo.png" 
+                            alt="C-sharp icon"
+                            class="icon_skills"
+                         >
+                        <img 
+                            src="./assets/c-logo.png" 
+                            alt="C icon"
+                            class="icon_skills"
+                        >
+                        <div class="skills-bar-container">
+                            <div class="skills c">30%</div>
+                        </div>
+                        <img 
+                            src="./assets/Python_logo_icon-700x697.png" 
+                            alt="python icon"
+                            class="icon_skills"
+                        >
+                        <div class="skills-bar-container">
+                            <div class="skills python">20%</div>
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -409,9 +407,10 @@
             <div class="nav-links-container">
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#creative-projects">Creative Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
