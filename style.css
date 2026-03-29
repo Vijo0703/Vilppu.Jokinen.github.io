@@ -154,10 +154,12 @@ section{
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
+    color: rgb(163,163,163);
 }
 
 .section-container{
     display: flex;
+    color: rgb(163,163,163);
 }
 
 /* Section Profile*/
@@ -182,25 +184,30 @@ section{
 .section__text{
     align-self: center;
     text-align: center;
+    color: rgb(163,163,163);
 
 }
 
 .section__text p {
     font-weight: 600;
+    color: rgb(163,163,163);
 }
 
 .section__text__p1{
     text-align: center;
+    color: rgb(163,163,163);
 }
 
 .section__text__p2{
     font-size: 1.75rem;
     margin-bottom: 1rem;
+    color: rgb(163,163,163);
 }
 
 .title{
     font-size: 3rem;
     text-align: center;
+    color: rgb(163,163,163);
 }
 
 #socials-container{
@@ -275,11 +282,13 @@ section{
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    color: rgb(163,163,163);
 }
 
 .about-details-container {
     justify-content: center;
     flex-direction: column;
+    color: rgb(163,163,163);
 }
 
 .about-containers, 
