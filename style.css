@@ -451,8 +451,12 @@ article.icon {
     height: 2.5rem;
 }
 
-.contact-icon {
-    cursor: default;
+.Linkedin-icon {
+    height: 2.5rem;
+}
+
+.instructables-icon {
+    height: 2.5rem;
 }
 
 /* FOOTER SECTION*/
