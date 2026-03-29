@@ -337,11 +337,11 @@ section{
     align-items: center;
 }
 
-/* EXPERIENCE SECTION */
+/* skills SECTION */
 
-#skills{
+#skills {
     position: relative;
-    height: 120vh;
+    height: 98vh;
 }
 
 .experience-sub-title{
@@ -409,6 +409,7 @@ article.icon {
 
 #creative-projects {
     position: relative;
+    height: 98vh;
 }
 
 /* CONTACT SECTION*/
@@ -480,7 +481,7 @@ footer p {
     border-radius: 2rem;
 }
   
-.skills {
+.skills_2 {
     position: relative;
     text-align: center; /* Right-align text */
     padding-top: 10px; /* Add top padding */
