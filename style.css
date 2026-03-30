@@ -4,7 +4,7 @@
 
 
 * {
-    background-color: lightblue;
+    background-color:lightskyblue;
     margin: 0;
     padding: 0;
 }
@@ -18,7 +18,13 @@ html{
 }
 
 p {
-    color: rgb(85, 85, 85);
+    color: black;
+    background-color: grey;
+}
+
+h3 {
+    color: black;
+    background-color: grey;
 }
 
 /* TRANSITION */
@@ -97,7 +103,7 @@ a:hover{
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: lightgrey;
+    background-color:grey;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -154,12 +160,10 @@ section{
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
-    color: rgb(163,163,163);
 }
 
 .section-container{
     display: flex;
-    color: rgb(163,163,163);
 }
 
 /* Section Profile*/
@@ -176,7 +180,6 @@ section{
     height: 400px;
     width: 400px;
     margin: auto 0;
-    color:rgb(163,163,163);
 }
 .section-pic {
     border-radius: 2rem;
@@ -185,30 +188,23 @@ section{
 .section__text{
     align-self: center;
     text-align: center;
-    color: rgb(163,163,163);
-
-}
-
-.section__text p {
-    font-weight: 600;
-    color: rgb(163,163,163);
 }
 
 .section__text__p1{
     text-align: center;
-    color: rgb(163,163,163);
+    align-self: center;
+    background-color: lightskyblue;
 }
 
 .section__text__p2{
     font-size: 1.75rem;
     margin-bottom: 1rem;
-    color: rgb(163,163,163);
+    background-color: lightskyblue;
 }
 
 .title{
     font-size: 3rem;
     text-align: center;
-    color: rgb(0,0,0);
 }
 
 #socials-container{
@@ -223,7 +219,13 @@ section{
 .icon{
     cursor: pointer;
     height: 2rem;
-    color:rgb(163,163,163);
+    background-color: grey;
+}
+
+.icon_2{
+    cursor: pointer;
+    height: 2rem;
+    background-color:lightskyblue;
 }
 
 /* Buttons */
@@ -232,6 +234,13 @@ section{
     display: flex;
     justify-content: center;
     gap: 1rem;
+    background-color: grey;
+}
+.btn-container_2{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background-color: lightskyblue;
 }
 
 .btn{
@@ -255,7 +264,7 @@ section{
 .btn-color-1, 
 .btn-color-2:hover{
     background: rgb(53, 53, 53);
-    color: lightgrey;
+    color: white;
 }
 
 .btn-color-1:hover{
@@ -284,13 +293,11 @@ section{
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
-    color: rgb(163,163,163);
 }
 
 .about-details-container {
     justify-content: center;
     flex-direction: column;
-    color: rgb(163,163,163);
 }
 
 .about-containers, 
@@ -306,17 +313,17 @@ section{
     position: absolute;
     right: -5rem;
     bottom: 2.5rem;
+    background-color: lightskyblue;
 }
 
 .details-container{
     padding: 1.5rem;
     flex: 2;
-    background: lightgrey;
+    background: grey;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
-    background-color: rgb(163,163,163);
 }
 
 .section-container{
@@ -328,6 +335,20 @@ section{
     height: 400px;
     width: 400px;
     margin: auto 0;
+}
+
+/* 1. Change the background of the main box */
+.text_container {
+  background-color: lightskyblue; /* Replace this hex code with your preferred color */
+  
+  /* A little bonus: adding padding keeps the text from touching the edges of the background box */
+  padding: 20px; 
+}
+
+/* 2. Override the default paragraph color inside this specific container */
+.text_container p {
+  background-color: transparent; /* This removes your default <p> color so the container color shows through! */
+  color: #333333; /* You can also change the text font color here if needed */
 }
 
 /* INSPIRATION SECTION*/
@@ -343,6 +364,11 @@ section{
     font-size: 0.75;
     text-align: center;
     display: inline;
+    background-color: lightskyblue;
+}
+
+.inspiration__text p{
+    background-color: lightskyblue;
 }
 
 .inspiration-btn {
@@ -357,10 +383,11 @@ section{
 }
 
 .experience-sub-title{
-    color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
+    background-color: grey;
+    color: black;
 }
 
 .experience-details-container{
@@ -376,6 +403,7 @@ section{
     flex-direction: row;
     gap: 2.5rem;
     justify-content: space-around;
+    background-color: grey;
 }
 
 article{
@@ -397,14 +425,15 @@ article.icon {
 }
 
 .color-container {
-    border-color: rgb(0, 0, 0);
-    background: rgb(163,163,163);
+    border-color: rgb(163, 163, 163);
+    background: grey;
 }
 
 .project-img {
     border-radius: 2rem;
     width: 90%;
     height: 90%;
+    background-color: grey;
 }
 
 .project-title {
@@ -439,7 +468,7 @@ article.icon {
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
-    background: rgb(250, 250, 250);
+    background-color: grey;
     margin: 2rem auto;
     padding: 0.5rem;
 }
@@ -450,14 +479,24 @@ article.icon {
     justify-content: center;
     gap: 0.5rem;
     margin: 1rem;
+    background-color: grey;
 }
 
 .contact-info-container p {
-    font-size: larger;
+  background-color: grey; /* A light gray background */
+  padding: 10px;
+  border-radius: 5px;
+  font-size: larger;
+}
+
+/* Make sure the link text is visible against your new background */
+.contact-info-container a {
+  background-color: grey; 
 }
 
 .contact-icon {
     cursor: default;
+    background-color: grey;
 }
 
 .email-icon{
@@ -488,12 +527,13 @@ footer p {
 .skills-bar-container {
     display: inline-block;
     width: 100%; /* Full width */
-    background-color: #ddd; /* Grey background */
+    background-color: lightskyblue; /* Grey background */
     justify-content: center;
     border-radius: 2rem;
+
 }
   
-.skills_2 {
+.skills {
     position: relative;
     text-align: center; /* Right-align text */
     padding-top: 10px; /* Add top padding */
@@ -506,6 +546,7 @@ footer p {
     position: relative;
     height:4rem;
     justify-content: center;
+    background-color: grey;
 }
   
 .creo {
@@ -535,4 +576,8 @@ footer p {
 .python {
     width: 20%;
     background-color: rgb(225,205,0);
+}
+
+.copyright-text p {
+    background-color: lightskyblue;
 }
