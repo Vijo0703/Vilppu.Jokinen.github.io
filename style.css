@@ -551,6 +551,13 @@ footer p {
     background-color: grey;
 }
   
+.icon_skills_2 {
+    position: relative;
+    height:8rem;
+    justify-content: center;
+    background-color: grey;
+}
+
 .creo {
     width: 80%; 
     background-color: rgb(22,168,0);
@@ -580,6 +587,79 @@ footer p {
     background-color: rgb(225,205,0);
 }
 
+.skills.additive {
+    width: 60%;
+    background-color: #6f0066; /* Hellblau, pass es an deine genaue Farbe an */
+}
+
+.skills.machining {
+    width: 10%;
+    background-color: #ff3300; /* Orange/Rot */
+}
+
+.skills.quality {
+    width: 10%;
+    background-color: #ffcc00; /* Gelb */
+}
+
 .copyright-text p {
     background-color: lightskyblue;
+}
+
+.skill-name {
+    color: black;
+    font-weight: bold;
+    background-color: grey; /* Ein mittleres Grau. Du kannst auch einfach 'gray' schreiben */
+    padding: 8px 15px; /* Gibt dem Text etwas "Luft" zum Atmen innerhalb der Box */
+    border-radius: 5px; /* Macht die Ecken des grauen Hintergrunds leicht rund (optional) */
+}
+
+/* Der Container für das Wort */
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+  cursor: help; /* Ändert den Mauszeiger in ein Fragezeichen */
+  border-bottom: 1px dotted #333; /* Dezenter Hinweis, dass man hier drüberfahren kann */
+}
+
+/* Das Styling der eigentlichen Bubble */
+.tooltip-container .tooltip-text {
+  visibility: hidden;
+  width: 250px; /* Breite der Textblase anpassen */
+  background-color: #2c3e50; /* Dunkler Hintergrund für guten Kontrast */
+  color: #ffffff; /* Weiße Schrift */
+  text-align: center;
+  border-radius: 8px; /* Abgerundete Ecken */
+  padding: 12px;
+  font-size: 14px;
+  font-weight: normal;
+  
+  /* Positionierung der Bubble über dem Text */
+  position: absolute;
+  z-index: 10;
+  bottom: 150%; /* Schiebt die Blase nach oben */
+  left: 50%;
+  transform: translateX(-50%); /* Zentriert die Blase exakt über dem Wort */
+  
+  /* Weicher Fade-in Effekt */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Das kleine Dreieck unten an der Bubble */
+.tooltip-container .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%; /* Platziert das Dreieck ganz unten an der Blase */
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: #2c3e50 transparent transparent transparent; /* Farbe muss zur Bubble passen */
+}
+
+/* Beim Hovern wird die Bubble sichtbar */
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
 }
