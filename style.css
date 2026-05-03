@@ -1,6 +1,6 @@
 /* GENERAL STYLING */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 
 * {
@@ -612,6 +612,10 @@ footer p {
     background-color: grey; /* Ein mittleres Grau. Du kannst auch einfach 'gray' schreiben */
     padding: 8px 15px; /* Gibt dem Text etwas "Luft" zum Atmen innerhalb der Box */
     border-radius: 5px; /* Macht die Ecken des grauen Hintergrunds leicht rund (optional) */
+
+    /* Die neue, viel bessere Linie: */
+    text-decoration: underline dotted #333; /* Macht eine gestrichelte Unterstreichung */
+    text-underline-offset: 4px; /* HIER kannst du den Abstand der Linie zum Text millimetergenau anpassen! */
 }
 
 /* Der Container für das Wort */
@@ -619,7 +623,6 @@ footer p {
   position: relative;
   display: inline-block;
   cursor: help; /* Ändert den Mauszeiger in ein Fragezeichen */
-  border-bottom: 1px dotted #333; /* Dezenter Hinweis, dass man hier drüberfahren kann */
 }
 
 /* Das Styling der eigentlichen Bubble */

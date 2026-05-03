@@ -131,77 +131,76 @@
         onclick="location.href='./#skills'"
         />
     </section>
-    <section id="Software skills">
+    <section id="skills">
         <p class="section__text__p1">Explore my</p>
         <h1 class="title">Skills</h1>
         <div class="experience-details-container">
             <div class="about-containers">
+                
+                <!-- MECHANICAL DESIGN -->
                 <div class="details-container">
                     <h2 class="experience-sub-title">Mechanical Design</h2>
                     <div class="article-container">
-                            <img 
-                            src="./assets/creo-logo.png" 
-                            alt="Creo icon"
-                            class="icon_skills"
-                            >
-                            <div class="skills-bar-container">
-                              <div class="skills creo">80%</div>
-                            </div>
                         
-                            <img 
-                            src="./assets/fusion-logo.png" 
-                            alt="Fusion icon"
-                            class="icon_skills"
-                            >
-                            <div class="skills-bar-container">
-                              <div class="skills fusion">50%</div>
-                            </div>
-                       
-                            <img 
-                            src="./assets/ansys-logo.png" 
-                            alt="Ansys icon"
-                            class="icon_skills"
-                            >
-                            <div class="skills-bar-container">
-                              <div class="skills ansys">30%</div>
-                            </div> 
+                        <img src="./assets/creo-logo.png" alt="Creo icon" class="icon_skills">
+                        <span class="skill-name tooltip-container">
+                            PTC Creo
+                            <span class="tooltip-text">Extensive experience in 3D CAD modeling, designing complex assemblies, and creating manufacturing drawings with proper tolerances (DIN ISO).</span>
+                        </span>
+                        <div class="skills-bar-container">
+                            <div class="skills creo">80%</div>
+                        </div>
+                        
+                        <img src="./assets/fusion-logo.png" alt="Fusion icon" class="icon_skills">
+                        <span class="skill-name tooltip-container">
+                            Fusion 360
+                            <span class="tooltip-text">Used for quick rapid prototyping, 3D printing preparation, and basic mechanical concepts.</span>
+                        </span>
+                        <div class="skills-bar-container">
+                            <div class="skills fusion">50%</div>
+                        </div>
+                        
+                        <img src="./assets/ansys-logo.png" alt="Ansys icon" class="icon_skills">
+                        <span class="skill-name tooltip-container">
+                            Ansys Workbench
+                            <span class="tooltip-text">Conducted Finite Element Analysis (FEA) for structural integrity (e.g., CNC frame) and Magnetostatic Field Simulations for eddy current brakes.</span>
+                        </span>
+                        <div class="skills-bar-container">
+                            <div class="skills ansys">30%</div>
+                        </div> 
                     </div>
                 </div>
+
+                <!-- SIMULATION AND PROGRAMMING -->
                 <div class="details-container">
                     <h2 class="experience-sub-title">Simulation and Programming</h2>
                     <div class="article-container">
                         
-                        <img 
-                            src="./assets/matlab-logo.png" 
-                            alt="Matlab icon"
-                            class="icon_skills"
-                        >
-                        <img 
-                            src="./assets/Simulink_Logo.png" 
-                            alt="Simulink icon"
-                            class="icon_skills"
-                        >
-                         <div class="skills-bar-container">
+                        <img src="./assets/matlab-logo.png" alt="Matlab icon" class="icon_skills">
+                        <img src="./assets/Simulink_Logo.png" alt="Simulink icon" class="icon_skills">
+                        <span class="skill-name tooltip-container">
+                            MATLAB / Simscape
+                            <span class="tooltip-text">Applied Multibody Simulation and kinematics to analyze dynamic systems, predict natural frequencies, and evaluate vibration absorbers.</span>
+                        </span>
+                        <div class="skills-bar-container">
                             <div class="skills matlab">50%</div>
                         </div>
-                        <img 
-                            src="./assets/c-sharp-logo.png" 
-                            alt="C-sharp icon"
-                            class="icon_skills"
-                         >
-                        <img 
-                            src="./assets/c-logo.png" 
-                            alt="C icon"
-                            class="icon_skills"
-                        >
+
+                        <img src="./assets/c-sharp-logo.png" alt="C-sharp icon" class="icon_skills">
+                        <img src="./assets/c-logo.png" alt="C icon" class="icon_skills">
+                        <span class="skill-name tooltip-container">
+                            C / C++
+                            <span class="tooltip-text">Programmed microcontrollers (e.g., Arduino) for electronics prototyping, including sensor data processing for custom HID devices (DIY SpaceMouse).</span>
+                        </span>
                         <div class="skills-bar-container">
                             <div class="skills c">30%</div>
                         </div>
-                        <img 
-                            src="./assets/Python_logo_icon-700x697.png" 
-                            alt="python icon"
-                            class="icon_skills"
-                        >
+
+                        <img src="./assets/Python_logo_icon-700x697.png" alt="python icon" class="icon_skills">
+                        <span class="skill-name tooltip-container">
+                            Python
+                            <span class="tooltip-text">Used Jupyter Notebooks for mathematical modeling, calculating system behaviors, and fast data evaluation.</span>
+                        </span>
                         <div class="skills-bar-container">
                             <div class="skills python">20%</div>
                         </div> 
@@ -209,62 +208,65 @@
                 </div>
             </div>
         </div>
+        <!-- Pfeil funktioniert jetzt, weil die nächste Sektion id="manufacturing_skills" heißt -->
         <img src="./assets/arrow.png" 
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#manufacturing_skills'"
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#manufacturing_skills'"
         />
     </section>
-    <section id="Manufacturing skills">
+    <section id="manufacturing_skills">
         <p class="section__text__p1">Explore my</p>
         <h1 class="title">Manufacturing & Prototyping Skills</h1>
         <div class="experience-details-container">
-        <div class="about-containers">
-            <div class="details-container">
-                <div class="article-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <div class="article-container">
 
-                    <!-- Additive Manufacturing -->
-                    <img src="./assets/additive_manufacturing.png" alt="3D Printing icon" class="icon_skills_2">
-                    <span class="skill-name tooltip-container">
-                        Additive Manufacturing
-                        <span class="tooltip-text">
-                            Experience with FDM, SLS, SLA, and LBM technologies. Skilled in file preparation, slicing, and optimizing part orientation for specific use cases. Authored a DfAM (Design for Additive Manufacturing) guideline for MakerSpacES! and handled extensive post-processing. Specialized in SLA print optimization, including preventing the 'elephant foot' effect on direct build-plate prints.
+                        <!-- Additive Manufacturing -->
+                        <img src="./assets/additive_manufacturing.png" alt="3D Printing icon" class="icon_skills_2">
+                        <span class="skill-name tooltip-container">
+                            Additive Manufacturing
+                            <span class="tooltip-text">
+                                Experience with FDM, SLS, SLA, and LBM technologies. Skilled in file preparation, slicing, and optimizing part orientation for specific use cases. Authored a DfAM (Design for Additive Manufacturing) guideline for MakerSpacES! and handled extensive post-processing. Specialized in SLA print optimization, including preventing the 'elephant foot' effect on direct build-plate prints.
+                            </span>
                         </span>
-                    </span>
-                    <div class="skills-bar-container">
-                        <div class="skills additive">60%</div>
-                    </div>
+                        <div class="skills-bar-container">
+                            <div class="skills additive">60%</div>
+                        </div>
 
-                    <!-- Machining -->
-                    <img src="./assets/machining.png" alt="Machining icon" class="icon_skills_2">
-                    <span class="skill-name tooltip-container">
-                        Machining
-                        <span class="tooltip-text">
-                            Hands-on experience with conventional turning, milling, and drilling. I am highly passionate about this field and eager to expand my machining skills! Additionally, I have extensive experience using laser cutters for various rapid prototyping projects.
+                        <!-- Machining -->
+                        <img src="./assets/machining.png" alt="Machining icon" class="icon_skills_2">
+                        <span class="skill-name tooltip-container">
+                            Machining
+                            <span class="tooltip-text">
+                                Hands-on experience with conventional turning, milling, and drilling. I am highly passionate about this field and eager to expand my machining skills! Additionally, I have extensive experience using laser cutters for various rapid prototyping projects.
+                            </span>
                         </span>
-                    </span>
-                    <div class="skills-bar-container">
-                        <div class="skills machining">10%</div>
-                    </div>
+                        <div class="skills-bar-container">
+                            <div class="skills machining">10%</div>
+                        </div>
 
-                    <!-- Quality Control -->
-                    <img src="./assets/caliper.png" alt="Caliper icon" class="icon_skills_2">
-                    <span class="skill-name tooltip-container">
-                        Quality Control
-                        <span class="tooltip-text">
-                            Proficient in standard dimensional inspection using traditional hand measuring tools. Gained initial exposure to Coordinate Measuring Machines (CMM) and applied 3D scanning techniques for reverse engineering projects.
+                        <!-- Quality Control -->
+                        <img src="./assets/caliper.png" alt="Caliper icon" class="icon_skills_2">
+                        <span class="skill-name tooltip-container">
+                            Quality Control
+                            <span class="tooltip-text">
+                                Proficient in standard dimensional inspection using traditional hand measuring tools. Gained initial exposure to Coordinate Measuring Machines (CMM) and applied 3D scanning techniques for reverse engineering projects.
+                            </span>
                         </span>
-                    </span>
-                    <div class="skills-bar-container">
-                        <div class="skills quality">10%</div>
+                        <div class="skills-bar-container">
+                            <div class="skills quality">10%</div>
+                        </div>
+
                     </div>
+                </div>
             </div>
         </div>
-    </div>
-    <img src="./assets/arrow.png" 
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
+        <img src="./assets/arrow.png" 
+            alt="Arrow icon"
+            class="icon arrow"
+            onclick="location.href='./#projects'"
         />
     </section>
     <section id="projects">
