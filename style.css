@@ -658,7 +658,7 @@ footer p {
   transform: translateX(-50%);
   border-width: 6px;
   border-style: solid;
-  border-color: #2c3e50 transparent transparent transparent; /* Farbe muss zur Bubble passen */
+  border-color: #2c3e50 transparent transparent transparent; /* Farbe muss zur Bubble passen, test */
 }
 
 /* Beim Hovern wird die Bubble sichtbar */
